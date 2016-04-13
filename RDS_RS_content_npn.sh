@@ -1,0 +1,11 @@
+Rscript read_RDS.R output/test_RS_p0_brca_npn_cm.RDS
+Rscript read_RDS.R output/test_RS_p10_brca_npn_cm.RDS
+Rscript read_RDS.R output/test_RS_p20_brca_npn_cm.RDS
+Rscript read_RDS.R output/test_RS_p30_brca_npn_cm.RDS
+Rscript read_RDS.R output/test_RS_p40_brca_npn_cm.RDS
+Rscript read_RDS.R output/test_RS_p50_brca_npn_cm.RDS
+Rscript read_RDS.R output/test_RS_p60_brca_npn_cm.RDS
+Rscript read_RDS.R output/test_RS_p70_brca_npn_cm.RDS
+Rscript read_RDS.R output/test_RS_p80_brca_npn_cm.RDS
+Rscript read_RDS.R output/test_RS_p90_brca_npn_cm.RDS
+Rscript read_RDS.R output/test_RS_p100_brca_npn_cm.RDS

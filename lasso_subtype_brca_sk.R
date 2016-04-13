@@ -367,7 +367,11 @@ if (length(args) != 11) {
   npn_cm = confusionMatrix(npn_reduced)
   un_cm = confusionMatrix(un_reduced)
 
+  saveRDS(tdm_cm, paste0(output_dir, pre_fix, "brca_tdm_cm.RDS"))
+  saveRDS(qn_cm, paste0(output_dir, pre_fix, "brca_qn_cm.RDS"))
   saveRDS(log_cm, paste0(output_dir, pre_fix, "brca_log_cm.RDS"))
+  saveRDS(npn_cm, paste0(output_dir, pre_fix, "brca_npn_cm.RDS"))
+  saveRDS(un_cm, paste0(output_dir, pre_fix, "brca_un_cm.RDS"))
 
   all_accs = data.frame(rbind(tdm_cm$overall, qn_cm$overall, log_cm$overall, npn_cm$overall, un_cm$overall))
   all_accs = cbind(all_accs, method=c("TDM", "QN", "LOG", "NPN", "UNTR"))

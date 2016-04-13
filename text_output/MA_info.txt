@@ -1,0 +1,5 @@
+RDS_MA_content_log.txt	log
+RDS_MA_content_npn.txt	npn
+RDS_MA_content_qn.txt	qn
+RDS_MA_content_tdm.txt	tdm
+RDS_MA_content_un.txt	un

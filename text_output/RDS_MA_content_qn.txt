@@ -1,0 +1,418 @@
+[1] "File_Examined: output/test_MA_p0_brca_qn_cm.RDS"
+$positive
+NULL
+
+$table
+        true
+pred     Basal Her2 LumA LumB Normal
+  Basal     41    0    0    0      0
+  Her2       0   10    1    4      0
+  LumA       1    5  128   44      8
+  LumB       1    6    0   13      1
+  Normal     1    0    1    0     21
+
+$overall
+      Accuracy          Kappa  AccuracyLower  AccuracyUpper   AccuracyNull 
+  7.447552e-01   6.099466e-01   6.900968e-01   7.942634e-01   4.545455e-01 
+AccuracyPValue  McnemarPValue 
+  1.893805e-23            NaN 
+
+$byClass
+              Sensitivity Specificity Pos Pred Value Neg Pred Value Prevalence
+Class: Basal    0.9318182   1.0000000      1.0000000      0.9877551 0.15384615
+Class: Her2     0.4761905   0.9811321      0.6666667      0.9594096 0.07342657
+Class: LumA     0.9846154   0.6282051      0.6881720      0.9800000 0.45454545
+Class: LumB     0.2131148   0.9644444      0.6190476      0.8188679 0.21328671
+Class: Normal   0.7000000   0.9921875      0.9130435      0.9657795 0.10489510
+              Detection Rate Detection Prevalence Balanced Accuracy
+Class: Basal      0.14335664           0.14335664         0.9659091
+Class: Her2       0.03496503           0.05244755         0.7286613
+Class: LumA       0.44755245           0.65034965         0.8064103
+Class: LumB       0.04545455           0.07342657         0.5887796
+Class: Normal     0.07342657           0.08041958         0.8460937
+
+$dots
+list()
+
+attr(,"class")
+[1] "confusionMatrix"
+[1] "File_Examined: output/test_MA_p10_brca_qn_cm.RDS"
+$positive
+NULL
+
+$table
+        true
+pred     Basal Her2 LumA LumB Normal
+  Basal     42    0    0    0      0
+  Her2       0   11    0    5      0
+  LumA       1    5  127   41      9
+  LumB       1    5    0   15      1
+  Normal     0    0    2    0     20
+
+$overall
+      Accuracy          Kappa  AccuracyLower  AccuracyUpper   AccuracyNull 
+  7.543860e-01   6.266282e-01   7.001596e-01   8.032375e-01   4.526316e-01 
+AccuracyPValue  McnemarPValue 
+  3.449786e-25            NaN 
+
+$byClass
+              Sensitivity Specificity Pos Pred Value Neg Pred Value Prevalence
+Class: Basal    0.9545455   1.0000000      1.0000000      0.9917695 0.15438596
+Class: Her2     0.5238095   0.9810606      0.6875000      0.9628253 0.07368421
+Class: LumA     0.9844961   0.6410256      0.6939891      0.9803922 0.45263158
+Class: LumB     0.2459016   0.9687500      0.6818182      0.8250951 0.21403509
+Class: Normal   0.6666667   0.9921569      0.9090909      0.9619772 0.10526316
+              Detection Rate Detection Prevalence Balanced Accuracy
+Class: Basal      0.14736842           0.14736842         0.9772727
+Class: Her2       0.03859649           0.05614035         0.7524351
+Class: LumA       0.44561404           0.64210526         0.8127609
+Class: LumB       0.05263158           0.07719298         0.6073258
+Class: Normal     0.07017544           0.07719298         0.8294118
+
+$dots
+list()
+
+attr(,"class")
+[1] "confusionMatrix"
+[1] "File_Examined: output/test_MA_p20_brca_qn_cm.RDS"
+$positive
+NULL
+
+$table
+        true
+pred     Basal Her2 LumA LumB Normal
+  Basal     42    0    0    0      0
+  Her2       0   12    1    5      1
+  LumA       1    7  125   40      8
+  LumB       1    2    2   17      1
+  Normal     0    0    2    0     20
+
+$overall
+      Accuracy          Kappa  AccuracyLower  AccuracyUpper   AccuracyNull 
+  7.526132e-01   6.261512e-01   6.984898e-01   8.014375e-01   4.529617e-01 
+AccuracyPValue  McnemarPValue 
+  5.150684e-25            NaN 
+
+$byClass
+              Sensitivity Specificity Pos Pred Value Neg Pred Value Prevalence
+Class: Basal    0.9545455   1.0000000      1.0000000      0.9918367 0.15331010
+Class: Her2     0.5714286   0.9736842      0.6315789      0.9664179 0.07317073
+Class: LumA     0.9615385   0.6433121      0.6906077      0.9528302 0.45296167
+Class: LumB     0.2741935   0.9733333      0.7391304      0.8295455 0.21602787
+Class: Normal   0.6666667   0.9922179      0.9090909      0.9622642 0.10452962
+              Detection Rate Detection Prevalence Balanced Accuracy
+Class: Basal      0.14634146           0.14634146         0.9772727
+Class: Her2       0.04181185           0.06620209         0.7725564
+Class: LumA       0.43554007           0.63066202         0.8024253
+Class: LumB       0.05923345           0.08013937         0.6237634
+Class: Normal     0.06968641           0.07665505         0.8294423
+
+$dots
+list()
+
+attr(,"class")
+[1] "confusionMatrix"
+[1] "File_Examined: output/test_MA_p30_brca_qn_cm.RDS"
+$positive
+NULL
+
+$table
+        true
+pred     Basal Her2 LumA LumB Normal
+  Basal     42    0    0    0      0
+  Her2       0   11    1    3      1
+  LumA       1    6  125   39      6
+  LumB       1    4    1   19      1
+  Normal     0    0    3    0     22
+
+$overall
+      Accuracy          Kappa  AccuracyLower  AccuracyUpper   AccuracyNull 
+  7.657343e-01   6.468876e-01   7.122819e-01   8.135880e-01   4.545455e-01 
+AccuracyPValue  McnemarPValue 
+  7.246170e-27            NaN 
+
+$byClass
+              Sensitivity Specificity Pos Pred Value Neg Pred Value Prevalence
+Class: Basal    0.9545455   1.0000000      1.0000000      0.9918033 0.15384615
+Class: Her2     0.5238095   0.9811321      0.6875000      0.9629630 0.07342657
+Class: LumA     0.9615385   0.6666667      0.7062147      0.9541284 0.45454545
+Class: LumB     0.3114754   0.9688889      0.7307692      0.8384615 0.21328671
+Class: Normal   0.7333333   0.9882812      0.8800000      0.9693487 0.10489510
+              Detection Rate Detection Prevalence Balanced Accuracy
+Class: Basal      0.14685315           0.14685315         0.9772727
+Class: Her2       0.03846154           0.05594406         0.7524708
+Class: LumA       0.43706294           0.61888112         0.8141026
+Class: LumB       0.06643357           0.09090909         0.6401821
+Class: Normal     0.07692308           0.08741259         0.8608073
+
+$dots
+list()
+
+attr(,"class")
+[1] "confusionMatrix"
+[1] "File_Examined: output/test_MA_p40_brca_qn_cm.RDS"
+$positive
+NULL
+
+$table
+        true
+pred     Basal Her2 LumA LumB Normal
+  Basal     42    1    0    0      0
+  Her2       0   11    0    3      1
+  LumA       1    6  128   47      8
+  LumB       1    4    0   11      1
+  Normal     0    0    2    0     20
+
+$overall
+      Accuracy          Kappa  AccuracyLower  AccuracyUpper   AccuracyNull 
+  7.386760e-01   5.995349e-01   6.837995e-01   7.885494e-01   4.529617e-01 
+AccuracyPValue  McnemarPValue 
+  8.179026e-23            NaN 
+
+$byClass
+              Sensitivity Specificity Pos Pred Value Neg Pred Value Prevalence
+Class: Basal    0.9545455   0.9958848      0.9767442      0.9918033 0.15331010
+Class: Her2     0.5000000   0.9849057      0.7333333      0.9595588 0.07665505
+Class: LumA     0.9846154   0.6050955      0.6736842      0.9793814 0.45296167
+Class: LumB     0.1803279   0.9734513      0.6470588      0.8148148 0.21254355
+Class: Normal   0.6666667   0.9922179      0.9090909      0.9622642 0.10452962
+              Detection Rate Detection Prevalence Balanced Accuracy
+Class: Basal      0.14634146           0.14982578         0.9752151
+Class: Her2       0.03832753           0.05226481         0.7424528
+Class: LumA       0.44599303           0.66202091         0.7948555
+Class: LumB       0.03832753           0.05923345         0.5768896
+Class: Normal     0.06968641           0.07665505         0.8294423
+
+$dots
+list()
+
+attr(,"class")
+[1] "confusionMatrix"
+[1] "File_Examined: output/test_MA_p50_brca_qn_cm.RDS"
+$positive
+NULL
+
+$table
+        true
+pred     Basal Her2 LumA LumB Normal
+  Basal     42    0    0    0      1
+  Her2       0   11    1    5      1
+  LumA       1    5  124   38      6
+  LumB       1    5    3   18      1
+  Normal     0    0    2    0     21
+
+$overall
+      Accuracy          Kappa  AccuracyLower  AccuracyUpper   AccuracyNull 
+  7.552448e-01   6.327145e-01   7.011697e-01   8.039457e-01   4.545455e-01 
+AccuracyPValue  McnemarPValue 
+  4.029647e-25            NaN 
+
+$byClass
+              Sensitivity Specificity Pos Pred Value Neg Pred Value Prevalence
+Class: Basal    0.9545455   0.9958678      0.9767442      0.9917695 0.15384615
+Class: Her2     0.5238095   0.9735849      0.6111111      0.9626866 0.07342657
+Class: LumA     0.9538462   0.6794872      0.7126437      0.9464286 0.45454545
+Class: LumB     0.2950820   0.9555556      0.6428571      0.8333333 0.21328671
+Class: Normal   0.7000000   0.9921875      0.9130435      0.9657795 0.10489510
+              Detection Rate Detection Prevalence Balanced Accuracy
+Class: Basal      0.14685315           0.15034965         0.9752066
+Class: Her2       0.03846154           0.06293706         0.7486972
+Class: LumA       0.43356643           0.60839161         0.8166667
+Class: LumB       0.06293706           0.09790210         0.6253188
+Class: Normal     0.07342657           0.08041958         0.8460937
+
+$dots
+list()
+
+attr(,"class")
+[1] "confusionMatrix"
+[1] "File_Examined: output/test_MA_p60_brca_qn_cm.RDS"
+$positive
+NULL
+
+$table
+        true
+pred     Basal Her2 LumA LumB Normal
+  Basal     41    1    0    0      1
+  Her2       0   14    0    3      0
+  LumA       2    3  122   26      5
+  LumB       1    3    6   32      1
+  Normal     0    0    2    0     23
+
+$overall
+      Accuracy          Kappa  AccuracyLower  AccuracyUpper   AccuracyNull 
+  8.111888e-01   7.224000e-01   7.609389e-01   8.548594e-01   4.545455e-01 
+AccuracyPValue  McnemarPValue 
+  2.472890e-35            NaN 
+
+$byClass
+              Sensitivity Specificity Pos Pred Value Neg Pred Value Prevalence
+Class: Basal    0.9318182   0.9917355      0.9534884      0.9876543 0.15384615
+Class: Her2     0.6666667   0.9886792      0.8235294      0.9739777 0.07342657
+Class: LumA     0.9384615   0.7692308      0.7721519      0.9375000 0.45454545
+Class: LumB     0.5245902   0.9511111      0.7441860      0.8806584 0.21328671
+Class: Normal   0.7666667   0.9921875      0.9200000      0.9731801 0.10489510
+              Detection Rate Detection Prevalence Balanced Accuracy
+Class: Basal      0.14335664           0.15034965         0.9617769
+Class: Her2       0.04895105           0.05944056         0.8276730
+Class: LumA       0.42657343           0.55244755         0.8538462
+Class: LumB       0.11188811           0.15034965         0.7378506
+Class: Normal     0.08041958           0.08741259         0.8794271
+
+$dots
+list()
+
+attr(,"class")
+[1] "confusionMatrix"
+[1] "File_Examined: output/test_MA_p70_brca_qn_cm.RDS"
+$positive
+NULL
+
+$table
+        true
+pred     Basal Her2 LumA LumB Normal
+  Basal     42    0    0    0      1
+  Her2       0   10    0    6      1
+  LumA       1    7  129   42      8
+  LumB       1    4    1   14      0
+  Normal     0    0    0    0     20
+
+$overall
+      Accuracy          Kappa  AccuracyLower  AccuracyUpper   AccuracyNull 
+  7.491289e-01   6.171206e-01   6.948110e-01   7.982219e-01   4.529617e-01 
+AccuracyPValue  McnemarPValue 
+  1.879048e-24            NaN 
+
+$byClass
+              Sensitivity Specificity Pos Pred Value Neg Pred Value Prevalence
+Class: Basal    0.9545455   0.9958848      0.9767442      0.9918033 0.15331010
+Class: Her2     0.4761905   0.9736842      0.5882353      0.9592593 0.07317073
+Class: LumA     0.9923077   0.6305732      0.6898396      0.9900000 0.45296167
+Class: LumB     0.2258065   0.9733333      0.7000000      0.8202247 0.21602787
+Class: Normal   0.6666667   1.0000000      1.0000000      0.9625468 0.10452962
+              Detection Rate Detection Prevalence Balanced Accuracy
+Class: Basal      0.14634146           0.14982578         0.9752151
+Class: Her2       0.03484321           0.05923345         0.7249373
+Class: LumA       0.44947735           0.65156794         0.8114405
+Class: LumB       0.04878049           0.06968641         0.5995699
+Class: Normal     0.06968641           0.06968641         0.8333333
+
+$dots
+list()
+
+attr(,"class")
+[1] "confusionMatrix"
+[1] "File_Examined: output/test_MA_p80_brca_qn_cm.RDS"
+$positive
+NULL
+
+$table
+        true
+pred     Basal Her2 LumA LumB Normal
+  Basal     41    0    0    0      1
+  Her2       0   15    1    5      0
+  LumA       1    3  124   33      5
+  LumB       2    3    4   24      1
+  Normal     0    0    1    0     23
+
+$overall
+      Accuracy          Kappa  AccuracyLower  AccuracyUpper   AccuracyNull 
+  7.909408e-01   6.906883e-01   7.392556e-01   8.365072e-01   4.529617e-01 
+AccuracyPValue  McnemarPValue 
+  9.557532e-32            NaN 
+
+$byClass
+              Sensitivity Specificity Pos Pred Value Neg Pred Value Prevalence
+Class: Basal    0.9318182   0.9958848      0.9761905      0.9877551 0.15331010
+Class: Her2     0.7142857   0.9774436      0.7142857      0.9774436 0.07317073
+Class: LumA     0.9538462   0.7324841      0.7469880      0.9504132 0.45296167
+Class: LumB     0.3870968   0.9555556      0.7058824      0.8498024 0.21602787
+Class: Normal   0.7666667   0.9961089      0.9583333      0.9733840 0.10452962
+              Detection Rate Detection Prevalence Balanced Accuracy
+Class: Basal      0.14285714           0.14634146         0.9638515
+Class: Her2       0.05226481           0.07317073         0.8458647
+Class: LumA       0.43205575           0.57839721         0.8431651
+Class: LumB       0.08362369           0.11846690         0.6713262
+Class: Normal     0.08013937           0.08362369         0.8813878
+
+$dots
+list()
+
+attr(,"class")
+[1] "confusionMatrix"
+[1] "File_Examined: output/test_MA_p90_brca_qn_cm.RDS"
+$positive
+NULL
+
+$table
+        true
+pred     Basal Her2 LumA LumB Normal
+  Basal     41    0    0    0      1
+  Her2       0   14    1    5      1
+  LumA       2    6  128   40      7
+  LumB       1    1    0   16      1
+  Normal     0    0    1    0     20
+
+$overall
+      Accuracy          Kappa  AccuracyLower  AccuracyUpper   AccuracyNull 
+  7.657343e-01   6.446744e-01   7.122819e-01   8.135880e-01   4.545455e-01 
+AccuracyPValue  McnemarPValue 
+  7.246170e-27            NaN 
+
+$byClass
+              Sensitivity Specificity Pos Pred Value Neg Pred Value Prevalence
+Class: Basal    0.9318182   0.9958678      0.9761905      0.9877049 0.15384615
+Class: Her2     0.6666667   0.9735849      0.6666667      0.9735849 0.07342657
+Class: LumA     0.9846154   0.6474359      0.6994536      0.9805825 0.45454545
+Class: LumB     0.2622951   0.9866667      0.8421053      0.8314607 0.21328671
+Class: Normal   0.6666667   0.9960938      0.9523810      0.9622642 0.10489510
+              Detection Rate Detection Prevalence Balanced Accuracy
+Class: Basal      0.14335664           0.14685315         0.9638430
+Class: Her2       0.04895105           0.07342657         0.8201258
+Class: LumA       0.44755245           0.63986014         0.8160256
+Class: LumB       0.05594406           0.06643357         0.6244809
+Class: Normal     0.06993007           0.07342657         0.8313802
+
+$dots
+list()
+
+attr(,"class")
+[1] "confusionMatrix"
+[1] "File_Examined: output/test_MA_p100_brca_qn_cm.RDS"
+$positive
+NULL
+
+$table
+        true
+pred     Basal Her2 LumA LumB Normal
+  Basal     40    0    0    0      1
+  Her2       2   17    2    4      1
+  LumA       1    2  117   25      5
+  LumB       1    2    7   32      1
+  Normal     0    0    4    0     22
+
+$overall
+      Accuracy          Kappa  AccuracyLower  AccuracyUpper   AccuracyNull 
+  7.972028e-01   7.066304e-01   7.458742e-01   8.422555e-01   4.545455e-01 
+AccuracyPValue  McnemarPValue 
+  1.453443e-32   5.662596e-02 
+
+$byClass
+              Sensitivity Specificity Pos Pred Value Neg Pred Value Prevalence
+Class: Basal    0.9090909   0.9958678      0.9756098      0.9836735 0.15384615
+Class: Her2     0.8095238   0.9660377      0.6538462      0.9846154 0.07342657
+Class: LumA     0.9000000   0.7884615      0.7800000      0.9044118 0.45454545
+Class: LumB     0.5245902   0.9511111      0.7441860      0.8806584 0.21328671
+Class: Normal   0.7333333   0.9843750      0.8461538      0.9692308 0.10489510
+              Detection Rate Detection Prevalence Balanced Accuracy
+Class: Basal      0.13986014           0.14335664         0.9524793
+Class: Her2       0.05944056           0.09090909         0.8877808
+Class: LumA       0.40909091           0.52447552         0.8442308
+Class: LumB       0.11188811           0.15034965         0.7378506
+Class: Normal     0.07692308           0.09090909         0.8588542
+
+$dots
+list()
+
+attr(,"class")
+[1] "confusionMatrix"
