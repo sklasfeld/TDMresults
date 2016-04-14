@@ -94,6 +94,8 @@ line2 = plt.errorbar(npnx, npny, yerr=[npnmin, npnmax], fmt='--o', color='b')
 line3 = plt.errorbar(qnx, qny, yerr=[qnmin, qnmax], fmt='--o', color='g')
 line4 = plt.errorbar(tdmx, tdmy, yerr=[tdmmin, tdmmax], fmt='--o', color='m')
 line5 = plt.errorbar(unx, uny, yerr=[unmin, unmax], fmt='--o', color='c')
+plt.ylabel('Accuracy')
+plt.xlabel('Proportion of RNA-Seq Training')
 first_legend = plt.legend([line1,line2,line3,line4,line5], ['log','npn','qn','tdm','un'], loc=4)
 
 
